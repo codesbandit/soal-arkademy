@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Learning Javascript</title>
+    </head>
+    <body>
+        
+        <h1>Hello World!</h1>
+
+        <!-- <script src='Object/soal.js'></script> -->
+        <script type="text/javascript">
+            var n = 5
+            document.write("<pre>");
+                for (var i = 1; i < n; i++) {
+                    for (var j = 0; j < n - i; j++)
+                    document.write(" ");
+                    document.write("*");
+                    if (i > 1) {
+                        for (var k = 0; k < 2 * i - 3; k++)
+                        document.write(" ");
+                        document.write("*");
+                    }
+                    document.write("\n");
+                }
+                for (var l = 1; l < n; l++)
+                document.write("* ");
+                document.write("*");
+                document.write("</pre>");
+        </script>
+    </body>
+</html>
